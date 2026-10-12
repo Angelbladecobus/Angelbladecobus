@@ -1,0 +1,33 @@
+# Content for the profile cards. Keep values short: the info card warns when a line may overflow.
+username = "Angelbladecobus"
+name = "Cobus van Staden"
+user = "cobus"
+host = "rtg"
+
+# Image for the ASCII portrait. Remove this table to use the GitHub avatar instead.
+# crop = [left, top, width, height] as fractions of the image.
+[portrait]
+source = "portrait/character-centre.webp"
+crop = [0.16, 0.117, 0.64, 0.508]
+
+[about]
+Role = "Systems Architect · Claude AI"
+Company = "Founder, Rooted to Grow"
+Location = "South Africa (SAST)"
+Focus = "AI workflows & operations"
+Web = "rootedtogrow.co.za"
+
+[stack]
+Frontend = "Next.js · React · Tailwind"
+Backend = "Node.js · TypeScript · Python"
+Data = "PostgreSQL · Prisma"
+AI = "Claude API · Anthropic SDK · MCP"
+Ops = "Docker · Coolify · Vercel"
+
+[highlights]
+items = [
+  "15+ years building systems (since 2011)",
+  "Hospital analytics: Rahima Moosa POPD",
+  "Prooflow: review & approval SaaS",
+  "ECC harness: 29 agents · 60+ commands",
+]
